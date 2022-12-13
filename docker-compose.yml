@@ -1,5 +1,5 @@
 services:
-  web:
+  production:
     image: nginx:alpine
     ports:
       - ${APP_PORT:-3000}:80
